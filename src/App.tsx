@@ -1,7 +1,5 @@
-import './App.css'
+import Loader from './Loader'
 
-function App() {
-  return <div className="App" />
-}
+const App = () => <Loader size={20} color="hsl(0, 0%, 5%)" />
 
 export default App
